@@ -314,7 +314,7 @@ map.on('load',function(){
             alignment: 'right',
             hidden: false,
             title: 'Manufacturing Decline',
-            image: './images/employment_charts.png',
+            image: './images/manufacturing_employment.png',
             description: 'This decline in manufacturing employment was particularly strong in urban centers, in the Hudson Valley in eastern New York, and in the North Country counties',
             location: {
                 center: [-74, 42.8270],
@@ -377,7 +377,7 @@ map.on('load',function(){
             alignment: 'right',
             hidden: false,
             title: 'Rise in Prison Employment',
-            image: './images/employment_charts.png',
+            image: './images/corrections_employment.png',
             description: 'Alongside this decline in manufacturing employment, we see a rise in prison employment across the board, though most strongly in those Hudson Valley and North Country counties.s',
             location: {
                 center: [-74, 42.8270],
@@ -440,7 +440,7 @@ map.on('load',function(){
             alignment: 'right',
             hidden: false,
             title: `Cuomo's Prisons`,
-            image: '',
+            image: './images/manufacturing_employment_prisons.png',
             description: `These upstate couties along the Hudson Valley and in North Country that faced steep manufacturing declines were the 
             primary recipients of new prison development under the Cuomo administration`,
             location: {
@@ -504,7 +504,7 @@ map.on('load',function(){
             alignment: 'right',
             hidden: false,
             title: `Cuomo's Prisons`,
-            image: './path/to/image/source.png',
+            image: './images/corrections_employment_prisons.png',
             description: `Unsurprisingly, these counties saw the largest increases in corrections employment. So while de-industrialization especially in the manufacturing
             sector affected urban and rural economies, rural economies were the primary beneficiary of Cuomo's new prison development.`,
             location: {
@@ -568,7 +568,7 @@ map.on('load',function(){
             alignment: 'right',
             hidden: false,
             title: 'Net Prisoner Flows',
-            image: './path/to/image/source.png',
+            image: './images/net_prisoner_flows.png',
             description: `This all gets to where core conflict lies. Data on prisoners is extremely opaque, but thanks to activists who pushed for census reform, we can get a small glimpse into data on the counties and blocks where people were imprisoned from. 
             The 2010 census contains an initial count in New York State where imprisoned people were counted in the county they were imprisoned in, and then an adjusted count where those incarcerated were counted from their home residence. By taking the difference between these two counts we get a representation of where prisoners were incarcerated from at this moment in 2010, at the end of our data collection on manufacturing and corrections employment.
             
@@ -635,7 +635,7 @@ map.on('load',function(){
             alignment: 'left',
             hidden: false,
             title: `Brooklyn Prisoners by Census Block`,
-            image: './path/to/image/source.png',
+            image: './images/net_prisoner_flows_nyc.png',
             description: `In Brooklyn, we can see a significant number of those imprisoned were coming from clusters of blocks in predominantly black neighborhoods like Brownsville, East New York, Bedford-Stuyvesant, and Crown Heights. 
             Here we can see clearly how the war on drugs and Cuomo's prison development policy led to the extraction of black community members to upstate New York.`,
             location: {
@@ -699,7 +699,7 @@ map.on('load',function(){
             alignment: 'left',
             hidden: false,
             title: 'Harlem and South Bronx Prisoners by Census Block',
-            image: '',
+            image: './images/net_prisoner_flows_nyc.png',
             description: `Likewise in Harlem and South Bronx, we see a small area being a significant geography of extraction for upstate prisons`,
             location: {
                 center: [-73.97, 40.8],
@@ -762,7 +762,7 @@ map.on('load',function(){
             alignment: 'right',
             hidden: false,
             title: 'Prison Closures',
-            image: '',
+            image: './images/cuomo_prison_legend.png',
             description: `This conflict is now evolving in a period of decarceration. As prison populations decrease across the state, New York began the process of shutting down prisons to consolidate, some of which were the very prisons that Mario Cuomo opened during his terms as Governor. The creation of a major industry in which upstate communities view people of color from urban centers as criminals has caused a major reactionary backlash to the closure of these prisons.`,
             location: {
                 center: [-74, 42.8270],
