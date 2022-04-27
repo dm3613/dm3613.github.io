@@ -122,6 +122,7 @@ map.on('load',function(){
             hidden: false,
             title: `Cuomo's Legacy`,
             image: './images/Governor_Mario_Cuomo_at_Cornell_1987.jpg',
+            image: './images/prison_legend.png',
             description: `Though the practice would come under harsh criticism following his tenure, Mario Cuomo routinely and unambiguously promoted prison construction as a viable economic development strategy for neglected towns, cities, and regions. 
             Aiding the Governor’s agenda were budget-starved rural municipalities, many of whom welcomed the approach with open arms. For many towns and counties in New York State, home to landscapes of neglected or obsolete infrastructure, machinery, and/or housing, prisons were seen as an opportunity for economic development.`,
                 location: {
