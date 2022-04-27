@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "name": "Southport", "type": "State", "County": null, "Name_1": "Southport", "Capacity": 250, "Field4": "Maximum", "Status": "closed", "closure_da": 2022, "open_date": 1988, "Cuomo_pris": "yes" }, "geometry": { "type": "Point", "coordinates": [ -76.802846, 42.05033 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "name": "Lyon Mountain", "type": "State", "County": null, "Name_1": "Lyon Mountain", "Capacity": 100, "Field4": "Minimum", "Status": "closed", "closure_da": 2011, "open_date": 1984, "Cuomo_pris": "yes" }, "geometry": { "type": "Point", "coordinates": [ -73.862162, 44.754659 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "name": "Gowanda Correctional Facility", "type": "State", "County": null, "Name_1": "Gowanda Correctional Facility", "Capacity": 2300, "Field4": "Medium", "Status": "closed", "closure_da": 2021, "open_date": 1994, "Cuomo_pris": "yes" }, "geometry": { "type": "Point", "coordinates": [ -78.935969, 42.487238 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 4, "name": "Chateaugay Correctional Facility", "type": "State", "County": null, "Name_1": "Chateaugay Correctional Facility", "Capacity": 100, "Field4": "Medium", "Status": "closed", "closure_da": 2014, "open_date": 1990, "Cuomo_pris": "yes" }, "geometry": { "type": "Point", "coordinates": [ -74.062149, 44.916992 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 5, "name": "Livingston", "type": "State", "County": null, "Name_1": "Livingston", "Capacity": 821, "Field4": "Medium", "Status": "closed", "closure_da": 2019, "open_date": 1991, "Cuomo_pris": "yes" }, "geometry": { "type": "Point", "coordinates": [ -77.816824, 42.688878000000102 ] } }
+]
+}
