@@ -762,7 +762,7 @@ map.on('load',function(){
             alignment: 'right',
             hidden: false,
             title: 'Prison Closures',
-            image: './images/cuomo_prison_legend.png',
+            image: './images/prison_legend.png',
             description: `This conflict is now evolving in a period of decarceration. As prison populations decrease across the state, New York began the process of shutting down prisons to consolidate, some of which were the very prisons that Mario Cuomo opened during his terms as Governor. The creation of a major industry in which upstate communities view people of color from urban centers as criminals has caused a major reactionary backlash to the closure of these prisons.`,
             location: {
                 center: [-74, 42.8270],
