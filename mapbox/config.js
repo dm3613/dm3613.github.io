@@ -565,7 +565,7 @@ map.on('load',function(){
         },
         {
             id: 'chapter-9',
-            alignment: 'right',
+            alignment: 'left',
             hidden: false,
             title: 'Net Prisoner Flows',
             image: './images/net_prisoner_flows.png',
