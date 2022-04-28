@@ -632,7 +632,7 @@ map.on('load',function(){
         },
         {
             id: 'chapter-10',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: 'Net Prisoner Flows',
             image: './path/to/image/source.png',
