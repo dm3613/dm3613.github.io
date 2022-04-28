@@ -565,14 +565,14 @@ map.on('load',function(){
         },
         {
             id: 'chapter-9',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: 'Net Prisoner Flows',
             image: './images/net_prisoner_flows.png',
             description: `This all gets to where core conflict lies. Data on prisoners is extremely opaque, but thanks to activists who pushed for census reform, we can get a small glimpse into data on the counties and blocks where people were imprisoned from. 
             The 2010 census contains an initial count in New York State where imprisoned people were counted in the county they were imprisoned in, and then an adjusted count where those incarcerated were counted from their home residence. By taking the difference between these two counts we get a representation of where prisoners were incarcerated from at this moment in 2010, at the end of our data collection on manufacturing and corrections employment.
             
-            These prisons have become major industrial machines in upstate new york. Besides Buffalo, which is likely offset by the fact that Eerie county had 2 new prisons developed under Mario Cuomo, the counties from which the most people were incarcerated were the counties containing the New York City Boroughs of Brooklyn Queens, Manhattan, Bronx, and cities like Albany, Binghamptom, Syracuse, and Rochester. 
+            
             `,
             location: {
                 center: [-74, 42.8270],
