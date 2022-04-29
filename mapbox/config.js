@@ -635,13 +635,13 @@ map.on('load',function(){
             alignment: 'right',
             hidden: false,
             title: 'Net Prisoner Flows',
-            image: './path/to/image/source.png',
+            image: './images/net_prisoner_flows.png',
             description: `
             These prisons have become major industrial machines in upstate new york. Besides Buffalo, which is likely offset by the fact that Eerie county had 2 new prisons developed under Mario Cuomo, the counties from which the most people were incarcerated were the counties containing the New York City Boroughs of Brooklyn Queens, Manhattan, Bronx, and cities like Albany, Binghamptom, Syracuse, and Rochester. 
             `,
             location: {
-                center: [-74, 44],
-                zoom: 10,
+                center: [-74, 44.5],
+                zoom: 8,
                 pitch: 0,
                 bearing: 0
             },
@@ -700,7 +700,7 @@ map.on('load',function(){
             alignment: 'left',
             hidden: false,
             title: `Brooklyn Prisoners by Census Block`,
-            image: './path/to/image/source.png',
+            image: './images/net_prisoner_flows_nyc.png',
             description: `In Brooklyn, we can see a significant number of those imprisoned were coming from clusters of blocks in predominantly black neighborhoods like Brownsville, East New York, Bedford-Stuyvesant, and Crown Heights. 
             Here we can see clearly how the war on drugs and Cuomo's prison development policy led to the extraction of black community members to upstate New York.`,
             location: {
@@ -764,7 +764,7 @@ map.on('load',function(){
             alignment: 'left',
             hidden: false,
             title: 'Harlem and South Bronx Prisoners by Census Block',
-            image: '',
+            image: './images/net_prisoner_flows_nyc.png',
             description: `Likewise in Harlem and South Bronx, we see a small area being a significant geography of extraction for upstate prisons`,
             location: {
                 center: [-73.97, 40.8],
@@ -827,7 +827,7 @@ map.on('load',function(){
             alignment: 'right',
             hidden: false,
             title: 'Prison Closures',
-            image: '',
+            image: './images/cuomo_prison_legend.png',
             description: `This conflict is now evolving in a period of decarceration. As prison populations decrease across the state, New York began the process of shutting down prisons to consolidate, some of which were the very prisons that Mario Cuomo opened during his terms as Governor. The creation of a major industry in which upstate communities view people of color from urban centers as criminals has caused a major reactionary backlash to the closure of these prisons.`,
             location: {
                 center: [-74, 42.8270],
