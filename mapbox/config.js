@@ -251,9 +251,10 @@ map.on('load',function(){
             hidden: false,
             title: 'Manufacturing Decline',
             image: './images/employment_charts.png',
-            description: `source: United States Census (1970-2010)
+            description: `
             During the period of 1970 to 2010, there was a significant decline in manufacturing employment across New York State,
-            and during that same period of time we see a sharp increase in employment in corrections industries.`,
+            and during that same period of time we see a sharp increase in employment in corrections industries.
+            \n source: United States Census (1970-2010)`,
             location: {
                 center: [-74, 42.8270],
                 zoom: 6,
@@ -316,8 +317,9 @@ map.on('load',function(){
             hidden: false,
             title: 'Manufacturing Decline',
             image: './images/manufacturing_employment.png',
-            description: `source: United States Census (1970-2010)
-            This decline in manufacturing employment was particularly strong in urban centers, in the Hudson Valley in eastern New York, and in the North Country counties`,
+            description: `
+            This decline in manufacturing employment was particularly strong in urban centers, in the Hudson Valley in eastern New York, and in the North Country counties.
+            \n source: United States Census (1970-2010)`,
             location: {
                 center: [-74, 42.8270],
                 zoom: 6,
@@ -380,8 +382,9 @@ map.on('load',function(){
             hidden: false,
             title: 'Rise in Prison Employment',
             image: './images/corrections_employment.png',
-            description: `source: United States Census (1970-2010)
-            Alongside this decline in manufacturing employment, we see a rise in prison employment across the board, though most strongly in those Hudson Valley and North Country counties.`,
+            description: `
+            Alongside this decline in manufacturing employment, we see a rise in prison employment across the board, though most strongly in those Hudson Valley and North Country counties.
+            \n source: United States Census (1970-2010)`,
             location: {
                 center: [-74, 42.8270],
                 zoom: 6,
@@ -444,9 +447,10 @@ map.on('load',function(){
             hidden: false,
             title: `Cuomo's Prisons`,
             image: './images/manufacturing_employment_prisons.png',
-            description: `source: United States Census (1970-2010)
+            description: `
             These upstate couties along the Hudson Valley and in North Country that faced steep manufacturing declines were the 
-            primary recipients of new prison development under the Cuomo administration`,
+            primary recipients of new prison development under the Cuomo administration.
+            \nsource: United States Census (1970-2010)`,
             location: {
                 center: [-74, 42.8270],
                 zoom: 6,
@@ -509,9 +513,10 @@ map.on('load',function(){
             hidden: false,
             title: `Cuomo's Prisons`,
             image: './images/corrections_employment_prisons.png',
-            description: `source: United States Census (1970-2010)
+            description: `
             Unsurprisingly, these counties saw the largest increases in corrections employment. So while de-industrialization especially in the manufacturing
-            sector affected urban and rural economies, rural economies were the primary beneficiary of Cuomo's new prison development.`,
+            sector affected urban and rural economies, rural economies were the primary beneficiary of Cuomo's new prison development.
+            \n source: United States Census (1970-2010)`,
             location: {
                 center: [-74, 42.8270],
                 zoom: 6,
@@ -574,10 +579,10 @@ map.on('load',function(){
             hidden: false,
             title: 'Net Prisoner Flows',
             image: './images/net_prisoner_flows.png',
-            description: `source: NYS Legislative Taskforce on Demographic Research and Reapportionment (2010)
+            description: `
             Data on prisoners is extremely opaque, but thanks to activists who pushed for census reform, we can get a small glimpse into data on the counties and blocks where people were imprisoned from. 
             The 2010 census contains an initial count in New York State where imprisoned people were counted in the county they were imprisoned in, and then an adjusted count where those incarcerated were counted from their home residence. By taking the difference between these two counts we get a representation of where prisoners were incarcerated from at this moment in 2010, at the end of our data collection on manufacturing and corrections employment.
-            
+            \n source: NYS Legislative Taskforce on Demographic Research and Reapportionment (2010)
             
             `,
             location: {
@@ -642,10 +647,11 @@ map.on('load',function(){
             hidden: false,
             title: 'Net Prisoner Flows',
             image: './images/net_prisoner_flows.png',
-            description: `source: NYS Legislative Taskforce on Demographic Research and Reapportionment (2010)
+            description: `
             This is where the heart of the conflict lies. 
             Besides Buffalo, which is likely offset by the fact that Eerie county had 2 new prisons developed under Mario Cuomo, the counties from which the most people were incarcerated were the counties containing the New York City Boroughs of Brooklyn Queens, Manhattan, Bronx, and cities like Albany, Binghamptom, Syracuse, and Rochester.
             The places in which people were imprisoned were in upstate, mostly rural communities which have come to rely on prisons and the carceral system as a major component of employment, creating a system in which the imprisonment of largely urban, largely non-white people is core to the economy of largely white upstate counties.
+            \n source: NYS Legislative Taskforce on Demographic Research and Reapportionment (2010)
             `,
             location: {
                 center: [-74, 42.8270],
@@ -709,9 +715,9 @@ map.on('load',function(){
             hidden: false,
             title: 'Net Prisoner Flows',
             image: './images/net_prisoner_flows.png',
-            description: `source: NYS Legislative Taskforce on Demographic Research and Reapportionment (2010)
-
-            These prisons have become major industrial machines in upstate new york in regions like the North Country.  
+            description: `
+            These prisons have become major industrial machines in upstate new york in regions like the North Country.
+            \n source: NYS Legislative Taskforce on Demographic Research and Reapportionment (2010)  
             `,
             location: {
                 center: [-74.2, 44.5],
@@ -775,7 +781,7 @@ map.on('load',function(){
             hidden: false,
             title: `Franklin Correctional Facility`,
             image: '',
-            description: `Franklin Correctional Facility, for instance, has a capacity of 1730 inmates, and in 2020 employed 531 staff on site who may have contact with those imprisoned, not including all those employed in adjacent businesses that support the Franklin Correctional facility, based in a town of less than 15,000 people (DOCCS 2020)`,
+            description: `Franklin Correctional Facility, for instance, has a capacity of 1730 inmates, and in 2020 employed 531 staff on site who may have contact with those imprisoned, not including all those employed in adjacent businesses that support the Franklin Correctional facility, based in a town of less than 15,000 people (DOCCS 2020).`,
             location: {
                 center: [-74.32401546382309, 44.87913829970828],
                 zoom: 20,
@@ -838,9 +844,10 @@ map.on('load',function(){
             hidden: false,
             title: `Brooklyn Prisoners by Census Block`,
             image: './images/net_prisoner_flows_nyc.png',
-            description: `source: NYS Legislative Taskforce on Demographic Research and Reapportionment (2010)
+            description: `
             In Brooklyn, we can see a significant number of those imprisoned were coming from clusters of blocks in predominantly black neighborhoods like Brownsville, East New York, Bedford-Stuyvesant, and Crown Heights. 
-            Here we can see clearly how the war on drugs and Cuomo's prison development policy led to the extraction of black community members to upstate New York.`,
+            Here we can see clearly how the war on drugs and Cuomo's prison development policy led to the extraction of black community members to upstate New York.
+            \n source: NYS Legislative Taskforce on Demographic Research and Reapportionment (2010)`,
             location: {
                 center: [-73.9442, 40.655],
                 zoom: 12,
@@ -903,7 +910,8 @@ map.on('load',function(){
             hidden: false,
             title: 'Harlem and South Bronx Prisoners by Census Block',
             image: './images/net_prisoner_flows_nyc.png',
-            description: `Likewise in Harlem and South Bronx, we see a small area being a significant geography of extraction for upstate prisons`,
+            description: `Likewise in Harlem and South Bronx, we see a small area being a significant geography of extraction for upstate prisons.
+            \n source: NYS Legislative Taskforce on Demographic Research and Reapportionment (2010)`,
             location: {
                 center: [-73.97, 40.8],
                 zoom: 12,
