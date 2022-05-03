@@ -789,8 +789,8 @@ map.on('load',function(){
             image: '',
             description: `Franklin Correctional Facility, for instance, has a capacity of 1730 inmates, and in 2020 employed 531 staff on site who may have contact with those imprisoned, not including all those employed in adjacent businesses that support the Franklin Correctional facility, based in a town of less than 15,000 people (DOCCS 2020).`,
             location: {
-                center: [-74.32401546382309, 44.87913829970828],
-                zoom: 20,
+                center: [-74.324015463, 44.879138299],
+                zoom: 16,
                 pitch: 0,
                 bearing: 0
             },
