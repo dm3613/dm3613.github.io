@@ -787,7 +787,7 @@ map.on('load',function(){
             hidden: false,
             title: `Franklin Correctional Facility`,
             image: '',
-            description: `Franklin Correctional Facility, for instance, has a capacity of 1730 inmates, and in 2020 employed 531 staff on site who may have contact with those imprisoned, not including all those employed in adjacent businesses that support the Franklin Correctional facility, based in a town of less than 15,000 people (DOCCS 2020).`,
+            description: `Franklin Correctional Facility in Malone, for instance, has a capacity of 1730 inmates, and in 2020 employed 531 staff on site who may have contact with those imprisoned, not including all those employed in adjacent businesses that support the Franklin Correctional facility, based in a town of less than 15,000 people (DOCCS 2020).`,
             location: {
                 center: [-74.324015463, 44.879138299],
                 zoom: 16,
